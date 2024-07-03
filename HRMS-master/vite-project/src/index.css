@@ -1,0 +1,51 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+nav {
+  background-color: #333;
+  color: white;
+  padding: 1rem;
+}
+
+nav h1 {
+  display: inline;
+  margin-right: 2rem;
+}
+
+nav ul {
+  display: inline;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 1rem;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.home-page {
+  padding: 2rem;
+}
+
+.hotel-card {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.hotel-card img {
+  max-width: 100%;
+  border-radius: 4px;
+}
