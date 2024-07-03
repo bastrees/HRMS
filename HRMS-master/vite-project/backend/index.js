@@ -6,7 +6,7 @@ const path = require('path');
 const app = express();
 const port = 5000;
 
-const MONGO_URI = 'mongodb://localhost:27017/yourDatabaseName'; // Replace with your actual database name
+const MONGO_URI = 'mongodb://localhost:27017/myHOTELDB'; // Replace with your actual database name
 const JWT_SECRET = 'your_jwt_secret';
 
 app.use(cors());
