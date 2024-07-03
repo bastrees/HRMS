@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
-import axios from 'axios';
+import hotelsApi from '../api/hotels';
 import HotelCard from '../components/HotelCard';
+import './Home.css';
 
 const Home = () => {
     const [hotels, setHotels] = useState([]);
@@ -8,7 +9,7 @@ const Home = () => {
     const [error, setError] = useState(null);
 
     useEffect(() => {
-        axios.get('/api/hotels')
+        hotelsApi.getHotels()
             .then(response => {
                 setHotels(response.data);
                 setLoading(false);

@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import auth from '../api/auth';
+import './Login.css';
 
 const Login = () => {
     const [username, setUsername] = useState('');
@@ -19,7 +20,7 @@ const Login = () => {
     };
 
     return (
-        <form onSubmit={handleSubmit}>
+        <form onSubmit={handleSubmit} className="login-form">
             <div>
                 <label>Username</label>
                 <input type="text" value={username} onChange={(e) => setUsername(e.target.value)} required />

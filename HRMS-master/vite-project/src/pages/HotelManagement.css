@@ -1,0 +1,43 @@
+.hotel-management {
+    padding: 2rem;
+}
+
+.hotel-form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+
+.hotel-form input {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.hotel-form button {
+    padding: 0.5rem;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.hotel-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.hotel-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.hotel-card img {
+    max-width: 100%;
+    border-radius: 4px;
+}

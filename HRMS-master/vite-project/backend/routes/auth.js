@@ -4,7 +4,6 @@ const User = require('../models/User');
 const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
 
-// Replace this with your actual JWT secret
 const JWT_SECRET = 'your_jwt_secret';
 
 // Register endpoint

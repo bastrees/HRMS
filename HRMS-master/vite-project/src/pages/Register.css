@@ -1,0 +1,35 @@
+.register-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 1rem;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.register-form div {
+    margin-bottom: 1rem;
+}
+
+.register-form label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.register-form input,
+.register-form select {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.register-form button {
+    width: 100%;
+    padding: 0.5rem;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}

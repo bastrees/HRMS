@@ -1,0 +1,12 @@
+.hotel-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.hotel-card img {
+    max-width: 100%;
+    border-radius: 4px;
+}
