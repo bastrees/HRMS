@@ -18,11 +18,14 @@ const Auth = () => {
         e.preventDefault();
         try {
             if (isLogin) {
+                console.log('Login Payload:', { username, password });
                 const response = await auth.login(username, password);
+                console.log('Login Response:', response.data);
                 localStorage.setItem('token', response.data.token);
                 localStorage.setItem('userRole', response.data.role);
                 navigate('/');
             } else {
+                console.log('Register Payload:', { username, password, role });
                 await auth.register(username, password, role);
                 setIsLogin(true);
             }
@@ -30,6 +33,7 @@ const Auth = () => {
             console.error('Error during authentication:', err);
         }
     };
+    
 
     return (
         <div className="auth-container">

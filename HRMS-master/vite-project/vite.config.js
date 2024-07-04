@@ -1,13 +1,14 @@
 import { defineConfig } from 'vite';
-import reactRefresh from '@vitejs/plugin-react-refresh';
+import react from '@vitejs/plugin-react';
 
 export default defineConfig({
-  plugins: [reactRefresh()],
+  plugins: [react()],
   server: {
     proxy: {
       '/api': {
-        target: 'http://localhost:5000', // Ensure this is the correct backend server URL
+        target: 'http://localhost:5000', // Backend server URL
         changeOrigin: true,
+        secure: false,
       },
     },
   },

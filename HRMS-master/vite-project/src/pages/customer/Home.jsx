@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import hotelsApi from '../api/hotels';
-import HotelCard from '../components/HotelCard';
+import hotelsApi from '../../api/hotels';
+import HotelCard from '../../components/HotelCard';
 import './Home.css';
 
 const Home = () => {

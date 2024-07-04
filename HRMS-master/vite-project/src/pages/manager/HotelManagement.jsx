@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import hotelsApi from '../api/hotels';
+import hotelsApi from '../../api/hotels';
 import axios from 'axios';
 import './HotelManagement.css';
 
